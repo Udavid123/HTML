@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divo Foodie</title>
+      
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudfare.com/ajax/libs/font_awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- header section starts -->
+    <link rel="stylesheet" href="divo.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensill"></i>Divo Foodie</a>
+
+      <nav class="navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#Dishes">Dishes</a>
+        <a href="#About">About</a>
+        <a href="#Menu">Menu</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu_bars"></i>
+        <i class="fas fa-search" id="search_icons"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- search form starts -->
+
+    <from action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>    
+    </from>
+
+    <!-- search form ends -->
+
+    <!--Home section starts-->
+
+    <section class="home" id="home">
+      <div class="swiper mySwiper home-slider">
+        <div class="swipper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our special dish for the year.</span>
+              <h3>SMOKED FISH</h3>
+              <p>
+                  The Smoked Fish is one of best delicacy in nigeria,
+                  with a fine touch of sweetness.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/smok_fish.avif" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our second special dish for the year.</span>
+              <h3>NOODLE</h3>
+              <p>
+                The noodles is the most sweetest delicacy in nigeria,
+                with a fine touch of chicken flavour.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/noodles.avif" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>This is one of the best pizza for the year.</span>
+              <h3>PIZZA</h3>
+              <p>
+                The pizza is the most sweetest and chessest delicacy in nigeria,
+                with a touch of chicken flavour.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/pizza.avif" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination" ></div>
+      </div> 
+    </section>  
+
+    <!--Home section ends-->
+
+    <!--Dishes section start-->
+
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">Our Dishes</h3>
+      <h1 class="heading">POPULAR DISHES</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/Donuts.avif" alt="" />
+          <h3>DONUTS</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>    
+          </div>
+          <span>₦1000</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/Hot_Dog.avif" alt="" />
+          <h3>Hot_Dog</h3>
+          <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦1500</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>    
+      
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/sharwama_1.avif" alt="" />
+          <h3>sharwama</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-star-half-alt"></i>
+          </div>
+          <span>₦2500</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+          
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/sausage_roll.avif" alt="" />
+          <h3>sweet sausage</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦2500</span>
+          <a href="#" class="btn">add to cart</a>    
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/juice.avif" alt="" />
+          <h3>Friut Juice</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦1500</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/meatpie.avif" alt="" />
+          <h3>Meatpie</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦1000</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/noodles.avif" alt="" />
+          <h3>NOODLES</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦1500</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/pizza.avif" alt="" />
+          <h3>PIZZA</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦7000</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/smok_fish.avif" alt="" />
+          <h3>Smoked fish</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₦3000</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Dishes section ends-->
+
+    <!--About section start-->
+
+    <section class="about" id="about">
+      <h3 class="sub-heading">About us.</h3>
+      <h1 class="heading">Why choose us?</h1>
+      <div class="row">
+        <div class="image">
+            <img src="images/noodles.avif" alt="" />
+        </div>
+        <div class="content">
+            <h3>Divo Foodie is one of the Best in Nigeria</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Magni corrupti natus velit quam dolorem officiis unde excepturi quas id eos,
+                quos illo maiores mollitia harum laboriosam vero, a quae neque.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ratione voluptatem pariatur velit. Animi ullam iste sapiente quisquam minima. Hic, itaque.
+            </p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                
+                <div class="icons">
+                    <i class="fas fa-naira-sign"></i>
+                    <span>easy payment</span>
+                </div>
+                
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+      </div>     
+    </section>
+
+    <!-- About section ends -->
+
+    <!-- Menu section start -->
+
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">Menu</h3>
+      <h1 class="heading">Today's Delicacy</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/smok_fish.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class=" fas fa-star-half-alt"></i>    
+            </div>
+            <h3>Smoked Fish</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Vitae, deserunt.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦3000</span>
+          </div>
+        </div>
+        
+        <div class="box">
+          <div class="image">
+            <img src="images/noodles.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>    
+            <h3>Tasty Noodles</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Libero, quos.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦1500</span>
+          </div>
+        </div>   
+
+        <div class="box">
+          <div class="image">
+            <img src="images/pizza.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Pizza</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Nam, voluptatem.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦7000</span>
+          </div>
+        </div>    
+    
+        <div class="box">
+          <div class="image">
+            <img src="images/juice.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>fruit juice</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Sapiente, adipisci.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦1500</span>
+          </div>
+        </div>
+        
+        <div class="box">
+            <div class="image">
+                <img src="images/friedchicken.avif" alt="" />
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>fried chicken</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Assumenda, rem.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">₦4000</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/sharwama_1.avif" alt="" />
+                <a href="#" class="fas fa-star-half-alt"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>sharwama</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Deleniti, voluptas.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">₦2500</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/chicken_1.avif" alt="" />
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>chicken sauce</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nulla, culpa.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">₦2500</span>
+            </div>
+       </div>
+       
+       <div class="box">
+            <div class="image">
+                <img src="images/chicken.avif" alt="" />
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>spicy rice</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nulla, culpa.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">₦2500</span>
+            </div>
+        </div>    
+
+        <div class="box">
+          <div class="image">
+            <img src="images/sausage_roll.avif" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>sausage roll</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Itaque, laborum.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">₦1000</span>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+<!--Menu Section Ends-->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="divo.js"></script>
+  </body>
+</html>

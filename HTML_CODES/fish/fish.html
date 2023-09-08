@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divo Foodie</title>
+      
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudfare.com/ajax/libs/font_awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- header section starts -->
+    <link rel="stylesheet" href="fish.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensill"></i>Divo Foodie</a>
+
+      <nav class="navbar">
+        <a class="active" href="fish.html">Home</a>
+        <a href="fish2.html">Dishes</a>
+        <a href="fish3.html">About</a>
+        <a href="fish4.html">Menu</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu_bars"></i>
+        <i class="fas fa-search" id="search_icons"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- search form starts -->
+
+    <from action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>    
+    </from>
+
+    <!-- search form ends -->
+
+    <!--Home section starts-->
+
+    <section class="home" id="home">
+      <div class="swiper mySwiper home-slider">
+        <div class="swipper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our special dish for the year.</span>
+              <h3>SMOKED FISH</h3>
+              <p>
+                  The Smoked Fish is one of best delicacy in nigeria,
+                  with a fine touch of sweetness.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/smok_fish.avif" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our second special dish for the year.</span>
+              <h3>NOODLE</h3>
+              <p>
+                The noodles is the most sweetest delicacy in nigeria,
+                with a fine touch of chicken flavour.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/noodles.avif" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>This is one of the best pizza for the year.</span>
+              <h3>PIZZA</h3>
+              <p>
+                The pizza is the most sweetest and chessest delicacy in nigeria,
+                with a touch of chicken flavour.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/pizza.avif" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination" ></div>
+      </div> 
+    </section>  
+
+    <!--Home section ends-->
+
+    
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="ish.js"></script>
+  </body>
+</html>
